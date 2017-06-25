@@ -99,6 +99,7 @@ namespace WindowsFormsApp1
         {
             int selectedPos = fileList.FindStringExact(fileList.Text);
             textBox1.Text = files[selectedPos].DirectoryName;
+            textBox1.Text = files[selectedPos].DirectoryName;
         }
 
         private void filePath_TextChanged(object sender, EventArgs e)
